@@ -21,6 +21,7 @@
 		28997BA319C23DD000A4396C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28997B8519C23DD000A4396C /* UIKit.framework */; };
 		28997BAB19C23DD000A4396C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28997BA919C23DD000A4396C /* InfoPlist.strings */; };
 		28997BAD19C23DD000A4396C /* ColorAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28997BAC19C23DD000A4396C /* ColorAppTests.m */; };
+		28997BB819C23DE900A4396C /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28997BB719C23DE900A4396C /* ColorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		28997BA819C23DD000A4396C /* ColorAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorAppTests-Info.plist"; sourceTree = "<group>"; };
 		28997BAA19C23DD000A4396C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28997BAC19C23DD000A4396C /* ColorAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorAppTests.m; sourceTree = "<group>"; };
+		28997BB619C23DE900A4396C /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		28997BB719C23DE900A4396C /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		28997B7519C23DCF00A4396C = {
 			isa = PBXGroup;
 			children = (
+				28997BB619C23DE900A4396C /* ColorViewController.h */,
+				28997BB719C23DE900A4396C /* ColorViewController.m */,
 				28997B8719C23DD000A4396C /* ColorApp */,
 				28997BA619C23DD000A4396C /* ColorAppTests */,
 				28997B8019C23DD000A4396C /* Frameworks */,
@@ -251,6 +256,7 @@
 			files = (
 				28997B9819C23DD000A4396C /* ViewController.m in Sources */,
 				28997B9219C23DD000A4396C /* AppDelegate.m in Sources */,
+				28997BB819C23DE900A4396C /* ColorViewController.m in Sources */,
 				28997B8E19C23DD000A4396C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
